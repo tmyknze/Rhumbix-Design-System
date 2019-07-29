@@ -1,0 +1,25 @@
+.Button {
+  background-color: #2480B3; /* Blue */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+
+.Button:hover {
+  background-color: #1F6E99; /* Dark Blue */
+  color: white;
+}
+
+.Button:active {
+  background-color: #10557B; /* Darker Blue */
+  color: white;
+}
